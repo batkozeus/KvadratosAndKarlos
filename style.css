@@ -1,0 +1,148 @@
+* {
+	font-size: 13px;
+	color: white;
+}
+
+#kvadratos {
+	margin: 200px auto;
+	width: 500px;
+	height: 500px;
+	background: lightgreen;
+	position: relative;
+	overflow: hidden;
+}
+
+#karlos {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	position: absolute;
+	display: none;
+}
+
+@keyframes karlosLeft {
+	0% {
+		left: -100px;
+		top: 200px;
+	}
+	50% {
+		left: -50px;
+		top: 200px;
+	}
+	100% {
+		left: 0px;
+		top: 200px;
+	}
+}
+
+
+@keyframes karlosLeftBack {
+	0% {
+		left: 0px;
+		top: 200px;
+	}
+	50% {
+		left: -50px;
+		top: 200px;
+	}
+	100% {
+		left: -100px;
+		top: 200px;
+	}
+}
+
+
+@keyframes karlosRight {
+	0% {
+		right: -100px;
+		top: 200px;
+	}
+	50% {
+		right: -50px;
+		top: 200px;
+	}
+	100% {
+		right: 0px;
+		top: 200px;
+	}
+}
+
+
+@keyframes karlosRightBack {
+	0% {
+		right: 0px;
+		top: 200px;
+	}
+	50% {
+		right: -50px;
+		top: 200px;
+	}
+	100% {
+		right: -100px;
+		top: 200px;
+	}
+}
+
+
+@keyframes karlosTop {
+	0% {
+		left: 200px;
+		top: -100px;
+	}
+	50% {
+		left: 200px;
+		top: -50;
+	}
+	100% {
+		left: 200px;
+		top: 0px;
+	}
+}
+
+
+@keyframes karlosTopBack {
+	0% {
+		left: 200px;
+		top: 0px;
+	}
+	50% {
+		left: 200px;
+		top: -50;
+	}
+	100% {
+		left: 200px;
+		top: -100px;
+	}
+}
+
+
+@keyframes karlosBottom {
+	0% {
+		left: 200px;
+		bottom: -100px;
+	}
+	50% {
+		left: 200px;
+		bottom: -50;
+	}
+	100% {
+		left: 200px;
+		bottom: 0px;
+	}
+}
+
+
+@keyframes karlosBottomBack {
+	0% {
+		left: 200px;
+		bottom: 0px;
+	}
+	50% {
+		left: 200px;
+		bottom: -50;
+	}
+	100% {
+		left: 200px;
+		bottom: -100px;
+	}
+}
